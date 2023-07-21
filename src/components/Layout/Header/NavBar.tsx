@@ -7,7 +7,7 @@ const NavBar: React.FC = () => {
     { id: 3, name: "Privacy Police", to: "/privacy-police" },
     ]
   return (
-    <div className="flex-shrink-0 md:hidden sm:hidden">
+    <div className="flex-shrink-0 hidden md:block">
       <ul className="flex flex-row">
         {links.map((link) => (
           <li
