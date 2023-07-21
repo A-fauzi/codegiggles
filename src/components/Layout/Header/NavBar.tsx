@@ -20,6 +20,22 @@ const NavBar: React.FC = () => {
           </li>
         ))}
       </ul>
+      
+      {/* Mobile Navbar */}
+      <div className="block md:hidden mt-4">
+        <ul className="flex flex-col">
+          {links.map((link) => (
+            <li
+              key={link.id}
+              className="block my-2 text-black text-gray-500 dark:text-white nav"
+            >
+              <Link href={link.to}>
+                <a>{link.name}</a>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   )
 }
