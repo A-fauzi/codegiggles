@@ -8,7 +8,7 @@ const NavBar: React.FC = () => {
     ]
   return (
     <div className="flex-shrink-0">
-      <ul className="flex flex-row">
+      <ul className="flex flex-row md:hidden">
         {links.map((link) => (
           <li
             key={link.id}
