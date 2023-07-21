@@ -6,9 +6,9 @@ const CONFIG = {
     role: "Android Developer",
     bio: "Memberikan sedikit edukasi programming, jangan malas untuk membaca guys!.",
     email: "akhmadfauzi9797@gmail.com",
-    linkedin: "",
-    github: "",
-    instagram: "",
+    linkedin: "https://www.linkedin.com/in/afauzi97",
+    github: "https://github.com/A-fauzi",
+    instagram: "https://instagram.com/codegiggles?igshid=MzNlNGNkZWQ4Mg==",
   },
   projects: [
     {
@@ -29,7 +29,7 @@ const CONFIG = {
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
-    keywords: ["Blog", "Website", "Notion"],
+    keywords: ["Blog", "Website", "Notion", "Tutorial", "Coding", "Programming"],
   },
 
   // notion configuration (required)
