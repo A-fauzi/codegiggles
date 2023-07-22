@@ -14,8 +14,8 @@ const NavBar: React.FC = () => {
   // const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
 
  // const handleToggleMobileNav = () => {
-    setIsMobileNavOpen(!isMobileNavOpen);
-  };
+    // setIsMobileNavOpen(!isMobileNavOpen);
+  // };
 
   return (
     <>
