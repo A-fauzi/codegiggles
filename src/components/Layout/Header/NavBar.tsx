@@ -36,10 +36,10 @@ const NavBar: React.FC = () => {
       </div>
 
       {/* Mobile Navbar */}
-      <div className="block md:hidden mt-4">
+      <div className="block md:hidden">
         <button
           onClick={handleToggleMobileNav}
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 rounded"
         >
           Menu
         </button>
